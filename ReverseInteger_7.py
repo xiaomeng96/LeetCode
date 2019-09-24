@@ -32,8 +32,8 @@ import functools
 #     elif x < 0:
 #         x = -x
 #         while x != 0:
-#             num = num * 10 + x % 10
-#             x = x//10
+#             num = num * 10 + x % 10  ## 取余
+#             x = x//10  ## 取整
 #         num = -num
 #     else:
 #         while x != 0:
