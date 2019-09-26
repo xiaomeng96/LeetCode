@@ -29,6 +29,7 @@
 #     return s
 
 
+## 方法2 使用2个列表
 def intToRoman(num):
     values = [1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1]
     numerals = ["M", "CM", "D", "CD", "C", "XC", "L", "XL", "X", "IX", "V", "IV", "I"]
