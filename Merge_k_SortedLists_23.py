@@ -41,6 +41,7 @@ class Solution:
                 l2 = l2.next
             tmp = tmp.next
 
+        # 若其中有一条不为空，将这一条链表剩下的部分直接连接上去
         if l1 == None:
             tmp.next = l2
         else:
