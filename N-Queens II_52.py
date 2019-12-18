@@ -2,7 +2,7 @@
 
 
 class Solution:
-    res = 0  # 定义的全局变量
+    res = 0  # 定义的全局变量 
     def totalNQueens(self, n):
         # 定义一个全局变量作为结果数组
         board = [-1 for i in range(n)]
