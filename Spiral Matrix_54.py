@@ -37,6 +37,7 @@ class Solution:
 
         return res
 
+
 a = Solution()
 print(a.spiralOrder([
   [1, 2, 3, 4],
